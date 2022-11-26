@@ -1,0 +1,12 @@
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.AssemblyReference.cache
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.AssemblyInfoInputs.cache
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.AssemblyInfo.cs
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.CoreCompileInputs.cache
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.deps.json
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.pdb
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\refint\Framework.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.pdb
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\00.Framework\Framework.Domain\obj\Debug\net5.0\ref\Framework.Domain.dll
