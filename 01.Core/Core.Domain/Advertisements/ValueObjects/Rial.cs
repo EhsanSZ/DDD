@@ -33,7 +33,7 @@ namespace Bazzar.Core.Domain.Advertisements.ValueObjects
         }
         public Rial Subtract(Rial rial)
         {
-            return new Rial(rial.Value + Value);
+            return new Rial(rial.Value - Value);
         }
 
         public static Rial operator +(Rial leftSide, Rial rightSide)
