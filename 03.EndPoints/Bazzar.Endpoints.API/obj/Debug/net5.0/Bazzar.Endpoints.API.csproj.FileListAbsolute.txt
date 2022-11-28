@@ -26,3 +26,11 @@ D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\obj
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\obj\Debug\net5.0\Bazzar.Endpoints.API.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\obj\Debug\net5.0\Bazzar.Endpoints.API.genruntimeconfig.cache
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\obj\Debug\net5.0\ref\Bazzar.Endpoints.API.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Bazzar.Core.ApplicationServices.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Core.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Framework.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Framework.Tools.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Bazzar.Core.ApplicationServices.pdb
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Core.Domain.pdb
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Framework.Domain.pdb
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\03.EndPoints\Bazzar.Endpoints.API\bin\Debug\net5.0\Framework.Tools.pdb
