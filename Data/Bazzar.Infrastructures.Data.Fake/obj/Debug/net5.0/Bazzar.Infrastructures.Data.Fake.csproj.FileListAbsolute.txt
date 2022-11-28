@@ -1,10 +1,8 @@
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Bazzar.Infrastructures.Data.Fake.deps.json
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Bazzar.Infrastructures.Data.Fake.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Bazzar.Infrastructures.Data.Fake.pdb
-D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Core.Domain.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Framework.Domain.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Framework.Tools.dll
-D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Core.Domain.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Framework.Domain.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Framework.Tools.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\obj\Debug\net5.0\Bazzar.Infrastructures.Data.Fake.csproj.AssemblyReference.cache
@@ -17,3 +15,5 @@ D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\obj\Debug\net5.0\refint\Bazzar.Infrastructures.Data.Fake.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\obj\Debug\net5.0\Bazzar.Infrastructures.Data.Fake.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\obj\Debug\net5.0\ref\Bazzar.Infrastructures.Data.Fake.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Bazzar.Core.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\Data\Bazzar.Infrastructures.Data.Fake\bin\Debug\net5.0\Bazzar.Core.Domain.pdb

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Bazzar.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Framework.Tools": "1.0.0"
+        },
+        "runtime": {
+          "Bazzar.Core.Domain.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "runtime": {
+          "Framework.Domain.dll": {}
+        }
+      },
+      "Framework.Tools/1.0.0": {
+        "runtime": {
+          "Framework.Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bazzar.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Tools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

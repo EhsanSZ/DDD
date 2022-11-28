@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\01.Core\Bazzar.Core.ApplicationServices\Bazzar.Core.ApplicationServices.csproj" />
-    <ProjectReference Include="..\..\01.Core\Core.Domain\Core.Domain.csproj" />
+    <ProjectReference Include="..\..\01.Core\Core.Domain\Bazzar.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>

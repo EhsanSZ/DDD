@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vibFCI2s9qD3CQ+WHwcs1VpgqDtKbv7SQHiMuCb/xYgEGKrZyBF5GoRRvJHGfjoWqCRcReIgx4CUsODFQrbhKw==",
+  "dgSpecHash": "5ajEdX0RfLT32zovTxDfNr35GFl1JEZAZMiMv63UZ739rCuwuOB6fP3H49s6we/amgX5kJ1BD/lp/fGbrvuFKA==",
   "success": true,
-  "projectFilePath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Core.Domain.csproj",
+  "projectFilePath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

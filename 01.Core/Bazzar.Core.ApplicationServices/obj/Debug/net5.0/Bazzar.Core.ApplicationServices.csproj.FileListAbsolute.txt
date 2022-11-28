@@ -1,10 +1,8 @@
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Bazzar.Core.ApplicationServices.deps.json
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Bazzar.Core.ApplicationServices.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Bazzar.Core.ApplicationServices.pdb
-D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Core.Domain.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Framework.Domain.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Framework.Tools.dll
-D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Core.Domain.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Framework.Domain.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Framework.Tools.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\obj\Debug\net5.0\Bazzar.Core.ApplicationServices.csproj.AssemblyReference.cache
@@ -17,3 +15,5 @@ D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServic
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\obj\Debug\net5.0\refint\Bazzar.Core.ApplicationServices.dll
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\obj\Debug\net5.0\Bazzar.Core.ApplicationServices.pdb
 D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\obj\Debug\net5.0\ref\Bazzar.Core.ApplicationServices.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Bazzar.Core.Domain.dll
+D:\MyProje\DDD\DDD_Divar\Rich_Domain_Model\01.Core\Bazzar.Core.ApplicationServices\bin\Debug\net5.0\Bazzar.Core.Domain.pdb

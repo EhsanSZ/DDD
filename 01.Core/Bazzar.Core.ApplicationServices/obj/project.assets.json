@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Core.Domain/1.0.0": {
+      "Bazzar.Core.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -10,10 +10,10 @@
           "Framework.Tools": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Core.Domain.dll": {}
+          "bin/placeholder/Bazzar.Core.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Core.Domain.dll": {}
+          "bin/placeholder/Bazzar.Core.Domain.dll": {}
         }
       },
       "Framework.Domain/1.0.0": {
@@ -39,10 +39,10 @@
     }
   },
   "libraries": {
-    "Core.Domain/1.0.0": {
+    "Bazzar.Core.Domain/1.0.0": {
       "type": "project",
-      "path": "../Core.Domain/Core.Domain.csproj",
-      "msbuildProject": "../Core.Domain/Core.Domain.csproj"
+      "path": "../Core.Domain/Bazzar.Core.Domain.csproj",
+      "msbuildProject": "../Core.Domain/Bazzar.Core.Domain.csproj"
     },
     "Framework.Domain/1.0.0": {
       "type": "project",
@@ -57,7 +57,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Core.Domain >= 1.0.0"
+      "Bazzar.Core.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -87,8 +87,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Core.Domain.csproj"
+            "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
+              "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj"
             }
           }
         }
