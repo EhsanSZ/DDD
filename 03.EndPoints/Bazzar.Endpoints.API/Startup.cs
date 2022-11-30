@@ -8,9 +8,17 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Bazzar.Core.ApplicationServices.Advertisements.CommandHandlers;
+using Bazzar.Core.ApplicationServices.UserProfiles.CommandHandlers;
+using Bazzar.Core.Domain.Advertisements.Data;
+using Bazzar.Core.Domain.UserProfiles.Data;
+using Bazzar.Infrastructures.Data.Fake.Advertisments;
+using Bazzar.Infrastructures.Data.SqlServer;
+using Bazzar.Infrastructures.Data.SqlServer.Advertisments;
+using Bazzar.Infrastructures.Data.SqlServer.UserProfiles;
+using Framework.Domain.Data;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bazzar.Endpoints.API
 {
@@ -28,6 +36,25 @@ namespace Bazzar.Endpoints.API
         {
 
             services.AddControllers();
+
+            services.AddScoped<IAdvertisementsRepository, EfAdvertisementsRepository>();
+            services.AddScoped<IUserProfileRepository, EFUserProfileRepository>();
+            services.AddScoped<IAdvertisementQueryService, AdvertisementQueryService>();
+            services.AddScoped(c => new SqlConnection(Configuration.GetConnectionString("AddvertismentCnn")));
+            services.AddScoped<IUnitOfWork, AdvertismentUnitOfWork>();
+
+            services.AddDbContext<AdvertismentDbContext>(c => c.UseSqlServer(Configuration.GetConnectionString("AddvertismentCnn")));
+
+            services.AddScoped<CreateHandler>();
+            services.AddScoped<SetTitleHandler>();
+            services.AddScoped<UpdateTextHandler>();
+            services.AddScoped<UpdatePriceHandler>();
+            services.AddScoped<RequestToPublishHandler>();
+
+            services.AddScoped<RegisterUserHandler>();
+            services.AddScoped<UpdateUserNameHandler>();
+            services.AddScoped<UpdateUserEmailHandler>();
+            services.AddScoped<UpdateUserDisplayNameHandler>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Bazzar.Endpoints.API", Version = "v1" });

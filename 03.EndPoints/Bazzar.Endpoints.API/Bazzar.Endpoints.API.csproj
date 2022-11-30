@@ -11,6 +11,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\01.Core\Bazzar.Core.ApplicationServices\Bazzar.Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\01.Core\Core.Domain\Bazzar.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Data\Bazzar.Infrastructures.Data.Fake\Bazzar.Infrastructures.Data.Fake.csproj" />
+    <ProjectReference Include="..\..\Data\Bazzar.Infrastructures.Data.SqlServer\Bazzar.Infrastructures.Data.SqlServer.csproj" />
   </ItemGroup>
 
 </Project>
