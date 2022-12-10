@@ -5,14 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EventStore.Client" Version="5.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\01.Core\Bazzar.Core.ApplicationServices\Bazzar.Core.ApplicationServices.csproj" />
     <ProjectReference Include="..\..\01.Core\Core.Domain\Bazzar.Core.Domain.csproj" />
-    <ProjectReference Include="..\..\Data\Bazzar.Infrastructures.Data.Fake\Bazzar.Infrastructures.Data.Fake.csproj" />
-    <ProjectReference Include="..\..\Data\Bazzar.Infrastructures.Data.SqlServer\Bazzar.Infrastructures.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\..\02.Infrastructures\Data\Bazzar.Infrastructures.Data.EventsSourcings\Bazzar.Infrastructures.Data.EventsSourcings.csproj" />
+    <ProjectReference Include="..\..\02.Infrastructures\Data\Bazzar.Infrastructures.Data.Fake\Bazzar.Infrastructures.Data.Fake.csproj" />
+    <ProjectReference Include="..\..\02.Infrastructures\Data\Bazzar.Infrastructures.Data.SqlServer\Bazzar.Infrastructures.Data.SqlServer.csproj" />
   </ItemGroup>
 
 </Project>

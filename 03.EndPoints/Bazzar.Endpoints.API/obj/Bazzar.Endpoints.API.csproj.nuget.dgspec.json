@@ -235,14 +235,14 @@
         }
       }
     },
-    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj": {
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\Bazzar.Infrastructures.Data.EventsSourcings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj",
-        "projectName": "Bazzar.Endpoints.API",
-        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj",
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\Bazzar.Infrastructures.Data.EventsSourcings.csproj",
+        "projectName": "Bazzar.Infrastructures.Data.EventsSourcings",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\Bazzar.Infrastructures.Data.EventsSourcings.csproj",
         "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\obj\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -259,17 +259,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Bazzar.Core.ApplicationServices\\Bazzar.Core.ApplicationServices.csproj": {
-                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Bazzar.Core.ApplicationServices\\Bazzar.Core.ApplicationServices.csproj"
-              },
               "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
                 "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj"
-              },
-              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {
-                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj"
-              },
-              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj": {
-                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj"
               }
             }
           }
@@ -284,9 +275,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "EventStore.Client": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[5.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
             }
           },
           "imports": [
@@ -301,9 +296,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -312,14 +304,14 @@
         }
       }
     },
-    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
         "projectName": "Bazzar.Infrastructures.Data.Fake",
-        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
         "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\obj\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -371,14 +363,14 @@
         }
       }
     },
-    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj": {
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj",
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj",
         "projectName": "Bazzar.Infrastructures.Data.SqlServer",
-        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj",
         "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.SqlServer\\obj\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -432,6 +424,90 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj",
+        "projectName": "Bazzar.Endpoints.API",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\Bazzar.Endpoints.API.csproj",
+        "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\03.EndPoints\\Bazzar.Endpoints.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Bazzar.Core.ApplicationServices\\Bazzar.Core.ApplicationServices.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Bazzar.Core.ApplicationServices\\Bazzar.Core.ApplicationServices.csproj"
+              },
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj"
+              },
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\Bazzar.Infrastructures.Data.EventsSourcings.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.EventsSourcings\\Bazzar.Infrastructures.Data.EventsSourcings.csproj"
+              },
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj"
+              },
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.SqlServer\\Bazzar.Infrastructures.Data.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EventStore.Client": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

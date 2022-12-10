@@ -1,21 +1,19 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
 using System;
 using Bazzar.Core.ApplicationServices.Advertisements.CommandHandlers;
 using Bazzar.Core.ApplicationServices.UserProfiles.CommandHandlers;
 using Bazzar.Core.Domain.Advertisements.Data;
 using Bazzar.Core.Domain.UserProfiles.Data;
-using Bazzar.Infrastructures.Data.Fake.Advertisments;
 using Bazzar.Infrastructures.Data.SqlServer;
 using Bazzar.Infrastructures.Data.SqlServer.Advertisments;
 using Bazzar.Infrastructures.Data.SqlServer.UserProfiles;
+using Microsoft.OpenApi.Models;
+using EventStore.ClientAPI;
+using Bazzar.Infrastructures.Data.EventsSourcings;
 using Framework.Domain.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -36,6 +34,11 @@ namespace Bazzar.Endpoints.API
         {
 
             services.AddControllers();
+
+            var esConnection = EventStoreConnection.Create(Configuration["EventStore:ConnectionString"], ConnectionSettings.Create().KeepReconnecting());
+            var store = new BazzarEventSource(esConnection);
+            services.AddSingleton(esConnection);
+            services.AddSingleton<IEventSource>(store);
 
             services.AddScoped<IAdvertisementsRepository, EfAdvertisementsRepository>();
             services.AddScoped<IUserProfileRepository, EFUserProfileRepository>();

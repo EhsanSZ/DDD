@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Bazzar.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Framework.Tools": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Bazzar.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bazzar.Core.Domain.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        }
+      },
+      "Framework.Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Tools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bazzar.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../01.Core/Core.Domain/Bazzar.Core.Domain.csproj",
+      "msbuildProject": "../../../01.Core/Core.Domain/Bazzar.Core.Domain.csproj"
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../00.Framework/Framework.Domain/Framework.Domain.csproj",
+      "msbuildProject": "../../../00.Framework/Framework.Domain/Framework.Domain.csproj"
+    },
+    "Framework.Tools/1.0.0": {
+      "type": "project",
+      "path": "../../../00.Framework/Framework.Tools/Framework.Tools.csproj",
+      "msbuildProject": "../../../00.Framework/Framework.Tools/Framework.Tools.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Bazzar.Core.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ehsan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+      "projectName": "Bazzar.Infrastructures.Data.Fake",
+      "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+      "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+      "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\02.Infrastructures\\Data\\Bazzar.Infrastructures.Data.Fake\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
+              "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

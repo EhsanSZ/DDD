@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {}
+  },
+  "projects": {
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\Framework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "projectName": "Framework.Domain",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\Framework.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\Framework.Tools.csproj",
+        "projectName": "Framework.Tools",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\Framework.Tools.csproj",
+        "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj",
+        "projectName": "Bazzar.Core.Domain",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Domain\\Framework.Domain.csproj"
+              },
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\Framework.Tools.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\00.Framework\\Framework.Tools\\Framework.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+        "projectName": "Bazzar.Infrastructures.Data.Fake",
+        "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\Bazzar.Infrastructures.Data.Fake.csproj",
+        "packagesPath": "C:\\Users\\Ehsan\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\Data\\Bazzar.Infrastructures.Data.Fake\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ehsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj": {
+                "projectPath": "D:\\MyProje\\DDD\\DDD_Divar\\Rich_Domain_Model\\01.Core\\Core.Domain\\Bazzar.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
